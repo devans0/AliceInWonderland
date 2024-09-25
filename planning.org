@@ -1,0 +1,217 @@
+* Deliverables
+** Game Requirements
+ - Based on "Alice in Wonderland"
+   - Characters and locations pulled from this story
+ - Contains any reasonable number of rooms; minimum five
+ - There should be a safe room which is a place that the player may collect all the necessary treasures
+ - Locations should have a minimum of one entrance and one exit (not the same)
+   - One location must have more than three exits
+ - Minimum five characters from the books portrayed
+ - Minimum twelve items for the player to interact with, taken from the book
+ - Must establish an objective for the main character to accomplish
+ - Items, descriptions, characters, and action words should be stored in separate text files
+** Assignment Requirements
+ - Include design document detailing (aprox 1000-2000 words):
+   - Design elements
+   - Concept
+   - Plan
+   - Play
+   - Goals
+ - Research document detailing (1000 < words < 5000):
+   - Design decisions; including how they were arrived at
+   - Challenges faced and how they were overcome
+   - Testing done and it's results
+* Game Structure
+** Input
+ - Text based input
+ - Robust enough to handle varying aliases for the same command
+   - e.g. go north = north = n
+ - Capitalization ignored
+** Structure
+ - Player controls the main character
+ - Navigates between rooms via connections
+ - Meet characters
+ - Interact with objects
+ - Collect items to increase score and win the game
+** Items
+ - May be carried in an inventory
+   - Inventory accessed using 'i', 'invent', or 'inventory' commands
+ - Possible to combine objects with actions to cause game events
+** Events
+ - Caused by using items, interacting with the world
+ - Encounters with NPCs can occur randomly
+   - Certain inventory items may increase the odds of encountering a particular character
+** Gameplay
+ - Player begins in a common location before setting out on the adventure
+ - Navigation is achieved through text commands, bringing the character through different rooms and meeting different characters
+ - Whenever the player inputs a text command, the game responds by printing messages indicating what the player can currently see/interact with
+   - Messages are longer and more descriptive on the first visit to an area, with subsequent visits eliciting a simpler response that serves to remind the player of their location
+ - Play continues until the player has either won or perished
+   - Player wins by collecting the required items from around the game world
+     - Bonus points are awarded for extra items collected
+     - Potentially through completing a trading game
+       - Giving NPCs items to receive other ones in order to eventually reach a win-state
+   - Player may perish in a variety of ways
+     - Interactions with malevolent characters
+     - Starvation or thirst
+     - Poisoning
+     - Falling down a hole or cliff etc.
+** Required Classes
+*** Game
+ - Highest class of the project, should contain a main() function that calls all other necessary logic for the game to run
+*** Locations
+**** Starting Area
+ - Large hallway with many doors
+ - Drink me/Eat me
+ - Safe zone for dropping off treasures
+ - Contains a locked door to leave Wonderland with pictures of several keys
+**** Tea Party
+ - Meet the mad hatter and the march hare
+**** White Rabbit's House
+ - Sent there by the rabbit to retrieve gloves and hat
+ - If Alice eats anything, she will become too large to leave the house
+   - All the animals around the house will panic and attempt to get her out in poor fashion
+**** Dark Forest
+ - Only accessible in one direction
+   - Once Alice enters, she becomes lost
+ - Perhaps leads Alice to a random location upon exiting?
+   - Not any random location, but one that she has not been to before
+   - Determined by the conversation with the Cheshire Cat?
+**** Duchess' Cabin
+ - Meet the Cheshire Cat
+ - Duchess' handmaid making the peppery soup
+ - Ugly baby that will be killed shortly
+**** The Gardens
+ - Find the cards of diamonds painting roses
+ - Queen will appear if Alice remains for a specific amount of time
+*** Items
+ - Handle loading items into memory
+   - Load all during start up of game?
+   - Load only required items for each room?
+*** Characters
+ - Handle loading character data to memory
+*** Actions
+*** Inventory
+*** Control
+ - Reads user input and checks against valid actions
+ - If an action is allowed, then methods that complete the action are called
+ - Some actions change the user's inventory, others change location etc.
+   - If the location is changed, then the relevant descriptive output should be displayed
+**** Parser
+ - Determines the grammatical role of words in an input and passes back to Control for action
+ - Requires some manner of accessing word lists for different word types along with valid command words etc.
+   - Handle synonyms gracefully
+* Class Structure
+** Game
+*** Characters
+ - Properties of a character:
+   - Dialogue
+   - Description
+   - Inventory
+   - Events
+ - How to give each unique character it's own unique dialogue options?
+   - Events?
+*** Rooms
+ - Properties of a room:
+   - Exits
+   - Items
+   - Characters
+   - Description
+ - Constructor to create a new room from text data files
+*** Items
+ - Properties of a given item
+ - Constructor for initializing new item from data file
+ - Requires data from parse
+*** Control
+ - Will be the largest class in the game
+ - Require methods for each event
+   - Events include actions, one-time events, movement etc.
+**** Actions
+*** Parse
+ - Handle all data reading from text files
+ - Passes all management of data to other classes
+*** Inventory
+ - Should inventory control the inventories of all the rooms as well as the player?
+* Notes on the Story
+ - "Alice's Adventure in Wonderland" begins with Alice falling down the rabbit hole chasing a rabbit with a pocket watch, that is exclaiming how late it is
+ - Finds herself in a long dark hallway with many doors, all locked
+   - Good potential location for the 'hub world'
+   - There is a key to a door 15 inches tall on a table in the hallway
+   - There is a vial labeled DRINK ME on the table which shrinks her, and a box with some cake in it labeled EAT ME beneath it that will make her grow temporarily
+   - Later, she finds this hallway once again through a door in a tree
+ - Alice is always fighting against her urge to cry; rational mind vs irrational mind
+   - Potential for a game mechanic
+ - Alice has a box of comfits (dried fruits and nuts, seeds or spices coated in sugar) and a thimble in her pocket
+ - Primary concern of the story is Alice returning to normal size
+ - Alice speaks to herself a great deal; game narrator should be Alice herself
+ - Many items and problems involving changing size
+** Characters
+Note: Each character within Wonderland is likely to be an animal, although characters in power are typically human
+ - White Rabbit
+ - Mouse
+ - Cheshire Cat
+ - The Duchess
+ - Queen of Hearts
+ - March Hare
+ - Mad Hatter
+*** Player
+ - Size is a crucial factor to the stories; many areas/dangers are only apparent at specific sizes
+ - Alice is constantly crying and trying to stop herself from crying
+ -
+** Locations
+ - Hallway of Doors
+ - Queen's Garden
+ - Tea Party
+ - Duchess' Cabin
+ - White Rabbit's House
+** Items
+Certain key items are to be found in order to complete the game
+ - Set of keys?
+   - Upon entering the hallway of doors, player will notice the point of ingress is locked by several keys
+   - Several items required to return to England
+* Data Storage
+All game information must be held in text files that are loaded during program execution.
+** Basic Structure
+ - Basic data files follow a basic syntax
+    <property> {
+        <value1>;
+        <value2>;
+        ...
+        <valueN>;
+    }
+ - Important to have a <value> act as a property; ie. contain a list of values
+ - Never use nested properties, each line within a property handled as a list of space-delimited values
+** Class-specific Structures
+*** LOCATIONS
+0 - description
+1 - return description
+2 - characters
+3 - items/inventory
+4 - events
+5 - exits
+6 - exit status
+*** CHARACTERS
+0 - description
+1 - return description
+2 - dialogue
+3 - inventory
+4 - events
+*** ITEMS
+0 - description
+1 - events
+* BUG/TODO LIST
+ - [X] When entering a new room, description AND returnDescription both printing
+   - Also occurs when look() called
+   - CAUSE: look() is called in the main method, causing it to be duplicated whenever the look() command is entered by the player
+ - [X] Appears that directions aren't mapped in new rooms
+ - [X] TAKE <object> where object is not a legal game object, makes the game print "There is no NONE here"
+   - The game should store the value of a 'non-object' string for future use for cases like these
+ - [X] LOOK when object not present, prints room description; should print 'error' message about not finding the object
+ - [X] LOOK requires more robustness, should print out a list of items and characters present
+   - [X] return description could handle the robustness without changing structure?
+ - [X] TOUCH does not correctly call an event method
+ - [X] TOUCH <object> produces null pointer exception when touching an object that has been picked up
+ - [ ] Add GIVE method
+* GENERAL NOTES
+ - Do not use verbiage like 'returned', 'you are back', or anything that will give a temporal relation for the character and an object or location
+   - This causes strange messages when a player looks at a room twice, or otherwise does not return to a room after a time away

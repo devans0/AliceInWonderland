@@ -1,0 +1,56 @@
+GO {
+  G;
+  WALK;
+  MOVE;
+ }
+
+TAKE {
+  T;
+  GRAB;
+}
+
+DROP {
+  D;
+  DISCARD;
+  LEAVE;
+  PLACE;
+}
+
+LOOK {
+  L;
+  STARE;
+  INSPECT;
+}
+
+TOUCH {
+  USE;
+  ACTIVATE;
+  STIR;
+  DRINK;
+  EAT;
+  UNLOCK;
+}
+
+ATTACK {
+  A;
+}
+
+GIVE {
+  TRADE;
+}
+
+TALK {
+  SPEAK;
+}
+
+INVENTORY {
+  I;
+}
+
+QUIT {
+  EXIT;
+}
+
+HELP {
+  H;
+}

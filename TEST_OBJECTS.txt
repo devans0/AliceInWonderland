@@ -1,0 +1,43 @@
+NORTH {
+  n;
+}
+
+SOUTH {
+  s;
+}
+
+EAST {
+  e;
+}
+
+WEST {
+  w;
+}
+
+UP {
+  u;
+}
+
+DOWN {
+  d;
+}
+
+item1 {
+  item1;
+}
+
+item2 {
+  item2;
+}
+
+item3 {
+  item3;
+}
+
+rabbit {
+  rabbit;
+}
+
+key {
+  key;
+}

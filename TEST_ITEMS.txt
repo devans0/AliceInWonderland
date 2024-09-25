@@ -1,0 +1,14 @@
+item1 {
+  ITEM1 DESCRIPTION;
+  NONE;
+}
+
+item2 {
+  ITEM2 DESCRIPTION;
+  NONE;
+}
+
+key {
+  KEY DESCRIPTION;
+  unlock;
+}

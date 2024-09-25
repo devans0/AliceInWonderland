@@ -1,0 +1,113 @@
+sister {
+  Your sister sits sleeping with a book on her lap. How very boring.;
+  Your sister is still sleeping.;
+  "ZZZZZ" snores your sister;
+  NONE;
+  NONE;
+}
+
+thief {
+  Before you stands an unpleasantly thin and tall man with long spindly fingers. He is dressed entirely in drab, dark colours. He is
+  surely some sort of ne'er do well. He looks like a THIEF.;
+  The THIEF stands before you.;
+  "AHH that is a very beautiful jewel you have. Perhaps you would be so kind as to give it to me?";
+  NONE;
+  steal;
+}
+
+cards {
+  The four cards are busily painting white roses red. In their hurry, they spill the crimson paint everywhere around them, and they
+  have many paint splotches all over the red bits of their faces. You see that they are the two, five, and seven of hearts. They keep
+  nervously checking over their shoulders to see if anyone from the croquet game behind them has taken notice of their activities.;
+  The two, five, and seven are painting white roses red frantically. They keep glancing over their shoulders towards the game of
+  croquet going on behind them.;
+  "Oh hello, sorry but we don't have time to talk right now," says the seven. "Yes, we are quite too busy for you right now," agrees
+  agrees the five. The two remains silent, focusing on the task of painting./"What do you mean, why are we painting these roses?"/The
+  five and the seven look worriedly at the two when you keep asking them questions. The two answers "You see, the QUEEN OF HEARTS wants
+  a garden full of beautiful red roses, but we accidentally planted white ones, and we are painting to fix our mistake" the two of
+  hearts glances back at the croquet game once more "please do not tell the QUEEN!"/"Please don't tell the queen what we're up to!";
+  NONE;
+  NONE;
+}
+
+rabbit {
+  Before you stands a WHITE RABBIT in a sophisticated three piece suit. Hanging from his belt is a pocketwatch that he checks
+  frequently along with a keyring holding a small GOLDEN KEY, as well as a SPADE KEY - that is a key with a spade for a head.
+  The rabbit seems to be searching frantically for something.;
+  The WHITE RABBIT stands before you.;
+  "Hello little girl. Didn't I see you at the top of the hole? No matter, have you seen my FAN? I seem to have misplaced it, and it's
+  terribly important to me."/"If you should find my FAN, please bring it to me, and I shall reward you handsomely!"/"Please bring my
+  FAN to me.";
+  goldkey spadekey;
+  NONE;
+}
+
+duchess {
+  The DUCHESS is a squat old woman with a terribly ugly face. She possesses perhaps the pointiest chin that you have ever seen, and is
+  the perfect height to rest it directly on your shoulder. Her eyes are bright and calculating, seeming to take measure of all that
+  they perceive.;
+  The DUCHESS stands before you, her pointy chin menacing you.;
+  "Hello little girl, would you like some soup? It has just enough pepper for my liking, but my boy here seems to think there's too
+  much. He just can't stop sneezing when I stir it."/"Have you tried the soup? It's just as spicy as I like it, with all that pepper!"/
+  "Have some soup, but stir it up first!";
+  letter;
+  give-letter;
+}
+
+big-baby {
+  This baby is absolutely gigantic. It is at least as large as the DUCHESS herself, but appears to be no more than two years old at any
+  rate. It is hodling a DIAMOND KEY in it's hands, and using it as a rattle.;
+  The big baby sits in front of you. Wow, that's a big baby...;
+  "WAAAAAAAAH";
+  diamondkey;
+  NONE;
+}
+
+cheshire {
+  This CHESHIRE CAT appeared out of thin air. It is green with purple stripes, and unsettlingly large eyes. It grins at all times,
+  like it knows something that you don't know. Although it seems to be mocking you, it doesn't appear to have any intent to harm you.
+  You notice that the cat has a CLUB KEY hanging from it's collar.;
+  The CHESHIRE CAT regards you with it's large eyes, grinning all the while.;
+  "Hello little girl, are you lost? It simply doesn't do to be lost - I would try being found instead."/"This forest is not an easy
+  place to get out of. If you know what's UP, or what's DOWN you can at least always get out. But to go forwards requires a twisty
+  and winding trail."/"If you are certain you can make it through, you'd be RIGHT, but if you're not certain, you'll be LEFT behind,
+  and LEFT behind is not what you want, I suspect. That is, if I'm RIGHT, I'm sure you'll get STRAIGHT out of here."/"Good luck, little
+  one!";
+  NONE;
+  NONE;
+}
+
+madhatter {
+  The MAD HATTER is dressed in an ugly and rundown purple suit. Upon his head lies a ragged top hat with a large tear along the top of
+  the brim. Tucked into the band of the hat is a playing card - a joker. His eyes focus on yours only for the briefest of moments,
+  before seemingly wandering off on their own.;
+  The MAD HATTER sits at his tea party and drinks from an empty glass.;
+  "Welcome welcome, please have something to drink! What's that? You haven't had anything? Well it's much easier to have more of
+  something than nothing!" The Hatter gestures to the table full of goodies./The HATTER checks his watch "Why YES! It is in fact
+  Tuesday! Very astute of you."/"My you are quite the riddler. Do come back again sometime.";
+  watch;
+  hattergame;
+}
+
+hare {
+  This hare seems to barely know where it is. It is wildly indulging in the treats at the table, between fits of staring off into the
+  distance, as if it just heard something far away calling it's name.;
+  The MARCH HARE is enjoying indulging in the tea party.;
+  "You should try the dainties, they are anything but!";
+  NONE;
+  NONE;
+}
+
+queen {
+  The QUEEN OF HEARTS stands before you. She is an imposingly large and fat woman, who has clearly become quite used to being in
+  charge of things. Her face seems permanently held in a rictus frown, with deep lines in her face much resembling riverbeds cutting
+  through granite. Her face is heavily powdered, and the makeup has dried and cracked, adding to her ghastly appearance. In a vain
+  attempt to soften her features, she has all together too much blush applied, which rather than giving her a youthful flush makes her
+  look as if she has suffered a highly localized sunburn. She sneers at you, looking down her nose - it is clear that you are not
+  making a strong first impression...;
+  The QUEEN looks down upon you. She looks to be losing her patience, even just standing here.;
+  "And WHAT do you WANT? I suppose you are here to beg for trinkets, baubles, and all sorts of inconsequential drivel. It's all
+  anyone EVER TALKS ABOUT!"/"Out with it then! Or off with it it will be!"/"THAT IS QUITE ENOUGH OUT OF YOU YOUNG LADY!"/"BEGONE!";
+  heartkey;
+  trial;
+}

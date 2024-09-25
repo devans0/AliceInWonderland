@@ -1,0 +1,145 @@
+START {
+  You sit on the edge of the river bank, feeling very tired of having nothing to do. The book your sister is reading is
+  very boring, since there are no pictures or conversations in it at all. Just then, you see a WHITE RABBIT run past.
+  BR "I'm late, I'm late!" says the rabbit - and it runs away to the NORTH;
+  You are sitting on the edge of the river bank, your sister has fallen asleep with the book in her lap. The WHITE RABBIT ran
+  NORTH.;
+  sister;
+  NONE;
+  NONE;
+  rabbitpath NONE NONE NONE NONE NONE;
+  OPEN OPEN OPEN OPEN OPEN OPEN;
+}
+
+rabbitpath {
+  Following the rabbit, it's trail leads you on a twisting path for some time. Eventually, you find yourself before a
+  rabbit hole, that leads DOWN into pitch blackness;
+  The rabbit hole sits before you, leading DOWN into darkness;
+  NONE;
+  NONE;
+  NONE;
+  NONE NONE START NONE NONE rabbithole;
+  OPEN OPEN OPEN OPEN OPEN OPEN;
+}
+
+rabbithole {
+  You take a few tentative steps into the rabbit hole before you lose your footing and fall. You seem to fall forever, with
+  strange, hypnotic patterns surrounding you on all sides. Peculiar visions of KEYS, the RABBIT, and a horrible QUEEN pass
+  before your eyes before fading back into the mess of colours all around you. You fall for so long, you begin to wonder if you
+  should soon pass straight through the Earth itself. Just as you begin to resign yourself to this fate, you feel your feet
+  gently touch the ground. BR You find yourself in a large room with vaulted celings. Looking up, you notice the ceiling is perfectly
+  smooth, with no sign of the hole you just fell through. There is one HUGE door to the NORTH and a GOLDEN door to the EAST. Nearby
+  there is a table with two boxes on it. One says EAT ME, containing a small cake, and the other says DRINK ME, containing a small vial.
+  BR Arrayed around where you are standing, you see four slots in the ground that appear to be keyholes. Surely, if you find the keys
+  and DROP them here, this room will open a way for you to escape wonderland...;
+  You are in the large vaulted room at the bottom of the rabbit hole. There is a HUGE door to the NORTH and a GODLEN door to the
+  EAST;
+  NONE;
+  drinkme eatme keyholes;
+  NONE;
+  forestpath darkforest NONE NONE NONE NONE;
+  BIG LOCKED OPEN OPEN OPEN OPEN;
+}
+
+forestpath {
+  Opening the huge door, you find yourself on a pleasant country road, with a warm and sunny forest surrounding you. The air
+  smells sweet and clean, and you can hear the sound of bees buzzing and birds chirping. Just as the door opens, you catch a brief
+  view of the WHITE RABBIT, who jumps in surprise and runs away to the NORTH when he sees you.;
+  You are on the pleasant forest path, the path leads further into the forest to the NORTH, and the HUGE DOOR is open to the SOUTH.
+  Now that you are taking some time to look around, you see something shiny just off the trail. It's a pile of beautiful JEWELS!;
+  NONE;
+  jewel;
+  NONE;
+  rabbithouse NONE rabbithole NONE NONE NONE;
+  OPEN OPEN OPEN OPEN OPEN OPEN;
+}
+
+rabbithouse {
+  Following the WHITE RABBIT down the forest path, you soon find yourself outside a small cottage. The rabbit is sitting in the front
+  yard, anxiously peering down the path. Now that you are closer to the rabbit, you see that he has a keyring on his belt, with a small
+  GOLDEN KEY, as well as a SPADE KEY. The path continues past the house to the EAST;
+  You are at the rabbit's house. The WHITE RABBIT stands outside. The path you are on leads to the SOUTH and the EAST;
+  rabbit;
+  NONE;
+  NONE;
+  NONE hattersparty forestpath NONE NONE NONE;
+  OPEN OPEN OPEN OPEN OPEN OPEN;
+}
+
+hattersparty {
+  You find yourself in a small meadow with a long, crowded table in the center of it. Around the table are many chairs of various
+  makes and sizes. Sitting at the head of the table you see a man with crazy tufts of hair stuffed below a ragged old hat. Beside the
+  man, you see a hare. They are enjoying a cup of tea together, and don't seem to have noticed you at all. BR There are paths leading
+  out of the clearing to the NORTH and SOUTH.;
+  You are at the tea party of the MAD HATTER, and the HARE. They are enjoying yet another cup of tea. There are paths leading out of the
+  clearing to the NORTH, SOUTH, and WEST.;
+  madhatter hare;
+  NONE;
+  hattergame;
+  duchess-house NONE darkforest rabbithouse NONE NONE;
+  OPEN OPEN OPEN OPEN OPEN OPEN;
+}
+
+duchess-house {
+  After travelling for some time, you find yourself on the edge of a vast sea. Near the coast, you see a house with smoke drifting
+  lazily from it's chimney. You approach the house, which lies to the NORTH, and quickly realize that it is much closer to you than
+  you thought - it is just that it is merely four feet tall! Much too small to enter...;
+  You are outside the tiny house on the shore. Looking at it, you can see signs of life inside - there is movement in the windows and smoke
+  is coming from the tiny chimney. There are paths leading EAST, and SOUTH. Now that you are looking more closely, you see a FAN sitting in
+  the bushes near the front door.;
+  NONE;
+  fan;
+  NONE;
+  duchess-house-interior queensgarden hattersparty NONE NONE NONE;
+  SMALL OPEN OPEN OPEN OPEN OPEN;
+}
+
+duchess-house-interior {
+  You enter the tiny house, and find a scene of domestic chaos laid out before you. A short elderly woman sits near the fireplace
+  knitting. She looks very regal, and you can see that she carries herself with an hauty air. Nearby where she is sitting is a BIG
+  BABY, nearly as large as the short woman herself. He is playing with an ornate DIAMOND KEY, using it as a rattle. Over the fire is
+  a comically large soup pot, filled with steaming liquid, and the overwhelming scent of pepper fills the air. As you take in the
+  scene, the old woman notices you, and beckons you over - "Come here, girl. Come let the DUCHESS see you." The door out is to the
+  SOUTH;
+  You are inside the tiny house of the DUCHESS. The BIG BABY is here with the DUCHESS and yourself. There is a massive pot of soup over
+  the fireplace, and the small, stuffy room smells overwhelmingly of pepper. The door outside is to the SOUTH.;
+  duchess big-baby;
+  soup;
+  NONE;
+  NONE NONE duchess-house NONE NONE NONE;
+  OPEN OPEN OPEN OPEN OPEN OPEN;
+}
+
+darkforest {
+  You are in an oppressively dark forest. After walking for a short time, you become hopelessly lost. All the trees around you look the
+  same, giving no clue to the direction out of the forest. After wandering for some time, you find yourself stopping before a
+  particularly gnarled tree. The path goes off in ALL DIRECTIONS here, and peering into the tree, you see that there is a hole
+  you could crawl into, leading DOWN into darkness within the tree. BR It seems hopeless, what are you going to do? BR You feel hot
+  tears begin to roll down your face in frustration, but through your blurred vision you see a grinning set of teeth materialize
+  at the top of the tree, followed shortly after by the rest of a CHESHIRE CAT. BR "What is the matter, little girl? Are you lost?
+  Have you tried being found?";
+  You are lost in the dark forest, there is no obvious way out. You stand before a gnarled tree, with paths leading off in ALL
+  DIRECTIONS. Peering inside a hole in the tree you see the hole continues DOWN farther than you can see. What are you going to do?
+  BR The CHESHIRE CAT sits above you in the tree, grinning at you. He looks like he has quite a bit to say...;
+  cheshire;
+  NONE;
+  forest-maze;
+  hattersparty queensgarden rabbithouse rabbithole NONE duchess-house;
+  LOST LOST LOST LOST LOST LOST;
+}
+
+queensgarden {
+  The path beneath your feet goes from an unfinished dirt walking path to a pristinely cobbled trail nearly imperceptibly, and you find
+  yourself in a grand and lavish garden. To your left you see four playing cards busily painting white roses red, and talking worriedly
+  amongst themselves. Further ahead, you can see a large open area where a group of well-dressed people are playing croquet. Everyone
+  in the game seems to be deferring to one person in particular, and with a closer look you realize that this imposing figure is in
+  fact the QUEEN OF HEARTS herself. Nearby, lies an elegant CROQUET MALLET in the shape of a flamingo. BR As you inspect the mallet,
+  you hear the QUEEN shreik: "OFF WITH THEIR HEAD!" and see one of the other players quickly apprehended and dragged away from the
+  game;
+  You are in the QUEEN OF HEARTS' garden. There is a game of croquet underway with the QUEEN herself playing.;
+  queen cards;
+  croquetmallet;
+  NONE;
+  duchess-house NONE darkforest NONE NONE NONE;
+  OPEN OPEN OPEN OPEN OPEN OPEN;
+}

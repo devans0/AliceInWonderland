@@ -1,0 +1,406 @@
+// NOTE: This is a single run of the game, and since the Thief character appears at random upon moving from room to
+// room, it is not guaranteed that this game is reproducible upon entering the exact same input. This also encompasses
+// only a single run of the game, and there are multiple methods to achieve success, or to fail and end with a game
+// over. This output has been included to demonstrate functionality of events, as well as demonstrate a typical game
+// run.
+
+You sit on the edge of the river bank, feeling very tired of having nothing to do. The book your sister is reading is very
+boring, since there are no pictures or conversations in it at all. Just then, you see a WHITE RABBIT run past.
+
+"I'm late, I'm late!" says the rabbit - and it runs away to the NORTH
+>> look
+
+You are sitting on the edge of the river bank, your sister has fallen asleep with the book in her lap. The WHITE RABBIT ran
+NORTH.
+>> talk sister
+
+ "ZZZZZ" snores your sister
+>> north
+
+Following the rabbit, it's trail leads you on a twisting path for some time. Eventually, you find yourself before a rabbit
+hole, that leads DOWN into pitch blackness
+>> down
+
+You take a few tentative steps into the rabbit hole before you lose your footing and fall. You seem to fall forever, with
+strange, hypnotic patterns surrounding you on all sides. Peculiar visions of KEYS, the RABBIT, and a horrible QUEEN pass
+before your eyes before fading back into the mess of colours all around you. You fall for so long, you begin to wonder if
+you should soon pass straight through the Earth itself. Just as you begin to resign yourself to this fate, you feel your
+feet gently touch the ground.
+
+You find yourself in a large room with vaulted celings. Looking up, you notice the ceiling is perfectly smooth, with no sign
+of the hole you just fell through. There is one HUGE door to the NORTH and a GOLDEN door to the EAST. Nearby there is a table
+with two boxes on it. One says EAT ME, containing a small cake, and the other says DRINK ME, containing a small vial.
+
+Arrayed around where you are standing, you see four slots in the ground that appear to be keyholes. Surely, if you find the
+keys and DROP them here, this room will open a way for you to escape wonderland...
+>> take eat me
+
+You picked up EATME
+>> take drink me
+
+You picked up DRINKME
+>> eat cake
+
+You eat a piece of the EAT ME cake and become HUGE.
+>> go north
+
+Opening the huge door, you find yourself on a pleasant country road, with a warm and sunny forest surrounding you. The air
+smells sweet and clean, and you can hear the sound of bees buzzing and birds chirping. Just as the door opens, you catch
+a brief view of the WHITE RABBIT, who jumps in surprise and runs away to the NORTH when he sees you.
+>> look
+
+You are on the pleasant forest path, the path leads further into the forest to the NORTH, and the HUGE DOOR is open to the
+SOUTH. Now that you are taking some time to look around, you see something shiny just off the trail. It's a pile of beautiful
+JEWELS!
+>> take jewel
+
+You picked up JEWEL
+>> i
+
+You are carrying:
+EATME DRINKME JEWEL
+>> drink potion
+
+You drink a bit of the DRINK ME potion and return to your normal size.
+>> north
+
+Following the WHITE RABBIT down the forest path, you soon find yourself outside a small cottage. The rabbit is sitting in
+the front yard, anxiously peering down the path. Now that you are closer to the rabbit, you see that he has a keyring on
+his belt, with a small GOLDEN KEY, as well as a SPADE KEY. The path continues past the house to the EAST
+>> talk rabbit
+
+"Hello little girl. Didn't I see you at the top of the hole? No matter, have you seen my FAN? I seem to have misplaced it,
+and it's terribly important to me."
+>> talk rabbit
+
+"If you should find my FAN, please bring it to me, and I shall reward you handsomely!"
+>> talk rabbit
+
+"Please bring my FAN to me."
+>> go east
+
+You find yourself in a small meadow with a long, crowded table in the center of it. Around the table are many chairs of various
+makes and sizes. Sitting at the head of the table you see a man with crazy tufts of hair stuffed below a ragged old hat.
+Beside the man, you see a hare. They are enjoying a cup of tea together, and don't seem to have noticed you at all.
+
+There are paths leading out of the clearing to the NORTH and SOUTH.
+>> talk to the mad hatter
+
+"Welcome welcome, please have something to drink! What's that? You haven't had anything? Well it's much easier to have more
+of something than nothing!" The Hatter gestures to the table full of goodies.
+>> talk hatter
+
+The HATTER checks his watch "Why YES! It is in fact Tuesday! Very astute of you."
+>> talk hatter
+
+"Now if you don't mind, I have a few riddles for you. If you answer well, there'll even be prizes!" says the HATTER. "Shall
+we begin?" (Y/N)
+>> yes
+
+"Excellent! Now then, let me think of a good one..." and the hatter strokes his chin, contemplating.
+"What goes up but never comes down?"
+>> my age
+
+"Yes! That's exactly right!" the hatter jumps up and down in his seat excitedly."
+"I can fly, but have no wings. I can cry but have no eyes. Wherever I go, darkness follows me. What am I?"
+>> a cloud
+
+"Yes! That's exactly right!" the hatter jumps up and down in his seat excitedly."
+"What has to be broken before you can use it?"
+>> egg
+
+"Yes! That's exactly right!" the hatter jumps up and down in his seat excitedly."
+
+"Splendid showing! You are quite the riddler - positively RIDDLED in fact! Here are your prizes as promised."
+
+The HATTER looks around the table absent-mindedly before something seems to catch his eye. He pulls an ornate key with a
+head shaped like a playing-card's CLUB out of a nearby pot of jam "Here you are! Oh and you look like someone who could use
+the time, as well." He pulls his watch from his coat pocket and hands it over with the sticky key.
+>> i
+
+You are carrying:
+EATME DRINKME JEWEL CLUBKEY WATCH
+>> look
+
+You are at the tea party of the MAD HATTER, and the HARE. They are enjoying yet another cup of tea. There are paths leading
+out of the clearing to the NORTH, SOUTH, and WEST.
+>> north
+
+After travelling for some time, you find yourself on the edge of a vast sea. Near the coast, you see a house with smoke drifting
+lazily from it's chimney. You approach the house, which lies to the NORTH, and quickly realize that it is much closer to
+you than you thought - it is just that it is merely four feet tall! Much too small to enter...
+>> drink potion
+
+You drink a bit of the DRINK ME potion and become tiny.
+>> go north
+
+You enter the tiny house, and find a scene of domestic chaos laid out before you. A short elderly woman sits near the fireplace
+knitting. She looks very regal, and you can see that she carries herself with an hauty air. Nearby where she is sitting is
+a BIG BABY, nearly as large as the short woman herself. He is playing with an ornate DIAMOND KEY, using it as a rattle. Over
+the fire is a comically large soup pot, filled with steaming liquid, and the overwhelming scent of pepper fills the air.
+As you take in the scene, the old woman notices you, and beckons you over - "Come here, girl. Come let the DUCHESS see you."
+The door out is to the SOUTH
+>> use watch
+
+Looking at the HATTER's strange watch you see that it is 2024-04-30T19:08:30.267849-06:00[America/Edmonton]
+A very strange watch indeed...
+>> talk to the duchess
+
+"Hello little girl, would you like some soup? It has just enough pepper for my liking, but my boy here seems to think there's
+too much. He just can't stop sneezing when I stir it."
+>> talk duchess
+
+"Have you tried the soup? It's just as spicy as I like it, with all that pepper!"
+>> talk duchess
+
+"You seem like such a nice girl. I have a very good nose for these things, you know. I am always right about it. Yes, you
+are clearly one of the good ones! Why,  I'm so sure of it I'll give you a LETTER of recommendation." The DUCHESS rummages
+in her apron pocket for a moment before producing a beautifully sealed letter. "I'd say that could get you out of a SPOT
+OF TROUBLE, yes indeed. Well, thank you for visiting"
+>> i
+
+You are carrying:
+EATME DRINKME JEWEL CLUBKEY WATCH LETTER
+>> look
+
+You are inside the tiny house of the DUCHESS. The BIG BABY is here with the DUCHESS and yourself. There is a massive pot
+of soup over the fireplace, and the small, stuffy room smells overwhelmingly of pepper. The door outside is to the SOUTH.
+>> stir soup
+
+You grasp the massive ladle, and stir the large pot of soup as soon as the liquid begins to move, the air fills with the
+scent of pepper, as a cloud of the spice is raised from the surface of the mixture. The BABY begins to sneeze uncontrollably,
+and the DUCHESS begins to complain and beat the poor child. During the entire commotion, the DIAMOND KEY the child was playing
+with somehow flies through the air and lands in your pocket. What luck!
+>> i
+
+You are carrying:
+EATME DRINKME JEWEL CLUBKEY WATCH LETTER DIAMONDKEY
+>> south
+
+You are outside the tiny house on the shore. Looking at it, you can see signs of life inside - there is movement in the windows
+and smoke is coming from the tiny chimney. There are paths leading EAST, and SOUTH. Now that you are looking more closely,
+you see a FAN sitting in the bushes near the front door.
+>> take fan
+
+You picked up FAN
+>> eat cake
+
+You eat a piece of the EAT ME cake and return to normal size.
+>> south
+
+You are at the tea party of the MAD HATTER, and the HARE. They are enjoying yet another cup of tea. There are paths leading
+out of the clearing to the NORTH, SOUTH, and WEST.
+>> west
+
+You are at the rabbit's house. The WHITE RABBIT stands outside. The path you are on leads to the SOUTH and the EAST
+>> drop fan
+
+You drop FAN
+"OH MY! You found my FAN! Thank you so much!"BR The WHITE RABBIT takes the FAN, and gives you the GOLD KEY, and the SPADE
+KEY.
+
+"I really can't thank you enough!"
+>> i
+
+You are carrying:
+EATME DRINKME JEWEL CLUBKEY WATCH LETTER DIAMONDKEY SPADEKEY GOLDKEY
+>> east
+
+You are at the tea party of the MAD HATTER, and the HARE. They are enjoying yet another cup of tea. There are paths leading
+out of the clearing to the NORTH, SOUTH, and WEST.
+>> south
+
+You are in an oppressively dark forest. After walking for a short time, you become hopelessly lost. All the trees around
+you look the same, giving no clue to the direction out of the forest. After wandering for some time, you find yourself stopping
+before a particularly gnarled tree. The path goes off in ALL DIRECTIONS here, and peering into the tree, you see that there
+is a hole you could crawl into, leading DOWN into darkness within the tree.
+
+It seems hopeless, what are you going to do?
+
+You feel hot tears begin to roll down your face in frustration, but through your blurred vision you see a grinning set of
+teeth materialize at the top of the tree, followed shortly after by the rest of a CHESHIRE CAT.
+
+"What is the matter, little girl? Are you lost? Have you tried being found?"
+>> talk cheshire
+
+"Hello little girl, are you lost? It simply doesn't do to be lost - I would try being found instead."
+>> talk cat
+
+"This forest is not an easy place to get out of. If you know what's UP, or what's DOWN you can at least always get out. But
+to go forwards requires a twisty and winding trail."
+>> talk cat
+
+"If you are certain you can make it through, you'd be RIGHT, but if you're not certain, you'll be LEFT behind, and LEFT behind
+is not what you want, I suspect. That is, if I'm RIGHT, I'm sure you'll get STRAIGHT out of here."
+>> south
+
+You walk down the forest path, but quickly become hopelessly lost. Every tree looks the same, and you can't remember which
+path you took to get here. You are at a crossroads, with paths leading STRAIGHT, LEFT, or RIGHT.
+Which way do you go?
+>> right
+
+You go RIGHT. It feels like you're closer to the exit.
+Which way do you go?
+>> left
+
+You go LEFT. It feels like you're closer to the exit.
+Which way do you go?
+>> left
+
+You go LEFT. It feels like you're closer to the exit.
+Which way do you go?
+>> right
+
+You go RIGHT. It feels like you're closer to the exit.
+Which way do you go?
+>> straight
+
+You go STRAIGHT. It feels like you're closer to the exit.
+
+You have found your way out of the darkest parts of the DARK FOREST. You now feel that you can find your way through with
+little difficulty.
+You are at the rabbit's house. The WHITE RABBIT stands outside. The path you are on leads to the SOUTH and the EAST
+>> south
+
+You are on the pleasant forest path, the path leads further into the forest to the NORTH, and the HUGE DOOR is open to the
+SOUTH. Now that you are taking some time to look around, you see something shiny just off the trail. It's a pile of beautiful
+JEWELS!
+
+You feel a hand reach into your pocket! Before you can react, the THIEF has pulled the JEWEL out of your pocket. As soon
+as he has it, he runs away.
+>> south
+
+You are in the large vaulted room at the bottom of the rabbit hole. There is a HUGE door to the NORTH and a GODLEN door to
+the EAST
+>> east
+
+The door is locked.
+You are in the large vaulted room at the bottom of the rabbit hole. There is a HUGE door to the NORTH and a GODLEN door to
+the EAST
+>> use key
+
+
+You use the key to unlock the door.
+
+You use the key to unlock the door.
+>> east
+
+You are lost in the dark forest, there is no obvious way out. You stand before a gnarled tree, with paths leading off in
+ALL DIRECTIONS. Peering inside a hole in the tree you see the hole continues DOWN farther than you can see. What are you
+going to do?
+
+The CHESHIRE CAT sits above you in the tree, grinning at you. He looks like he has quite a bit to say...
+>> south
+
+You are at the rabbit's house. The WHITE RABBIT stands outside. The path you are on leads to the SOUTH and the EAST
+>> east
+
+You are at the tea party of the MAD HATTER, and the HARE. They are enjoying yet another cup of tea. There are paths leading
+out of the clearing to the NORTH, SOUTH, and WEST.
+>> south
+
+You are lost in the dark forest, there is no obvious way out. You stand before a gnarled tree, with paths leading off in
+ALL DIRECTIONS. Peering inside a hole in the tree you see the hole continues DOWN farther than you can see. What are you
+going to do?
+
+The CHESHIRE CAT sits above you in the tree, grinning at you. He looks like he has quite a bit to say...
+>> east
+
+The path beneath your feet goes from an unfinished dirt walking path to a pristinely cobbled trail nearly imperceptibly,
+and you find yourself in a grand and lavish garden. To your left you see four playing cards busily painting white roses red,
+and talking worriedly amongst themselves. Further ahead, you can see a large open area where a group of well-dressed people
+are playing croquet. Everyone in the game seems to be deferring to one person in particular, and with a closer look you realize
+that this imposing figure is in fact the QUEEN OF HEARTS herself. Nearby, lies an elegant CROQUET MALLET in the shape of
+a flamingo.
+
+As you inspect the mallet, you hear the QUEEN shreik: "OFF WITH THEIR HEAD!" and see one of the other players quickly apprehended
+and dragged away from the game
+>> take mallet
+
+You picked up CROQUETMALLET
+>> talk cards
+
+"Oh hello, sorry but we don't have time to talk right now," says the seven. "Yes, we are quite too busy for you right now,"
+agrees agrees the five. The two remains silent, focusing on the task of painting.
+>> talk cards
+
+"What do you mean, why are we painting these roses?"
+>> talk cards
+
+The five and the seven look worriedly at the two when you keep asking them questions. The two answers "You see, the QUEEN
+OF HEARTS wants a garden full of beautiful red roses, but we accidentally planted white ones, and we are painting to fix
+our mistake" the two of hearts glances back at the croquet game once more "please do not tell the QUEEN!"
+>> talk cards
+
+"Please don't tell the queen what we're up to!"
+>> talk queen
+
+"And WHAT do you WANT? I suppose you are here to beg for trinkets, baubles, and all sorts of inconsequential drivel. It's
+all anyone EVER TALKS ABOUT!"
+>> talk queen
+
+"Out with it then! Or off with it it will be!"
+>> talk queen
+
+"THAT IS QUITE ENOUGH OUT OF YOU YOUNG LADY!"
+>> talk queen
+
+The QUEEN looks at you with disgust. "You have lingered far too long, young lady! This is most improper! You must know that
+impropriety is punishable by DEATH! OFF WITH HER HEAD" the QUEEN's voice rises higher and higher as she speaks, reaching
+screeching heights. She gestures to some nearby guards, and they begin to close in on you.
+
+As it looks as though you are about to be grabbed, a small and portly fellow squeezes out from the crowd of onlookers. He
+is wearing a crown adorned with hearts. This must be the KING "Now, my dear, we agreed that we shan't be beheading without
+a trial from now on..." he says quietly. The QUEEN turns a few shades redder before the colour drains from her face a a little
+and she visibly collects herself before presenting you with a saccharine smile. "Of course, my dear, you are quite right.
+Then we shall have a TRIAL! How exciting! BRThe entire retinue looks quite excited, as they follow the KING and QUEEN down
+a garden path. You feel hands on your arms, as some guards grab you and usher you down the same path behind the royal retinue.
+You soon find yourself in a spacious paved squre in the garden's center, with the royal retinue arrayed about the fringes
+of the square, eagerly awaiting the beginning of the trial. The KING and QUEEN sit at the far end of the square in large
+thrones. BRA scribe comes forth and proclaims to the assembled crowd: "WE HAVE BEFORE US THE ACCUSED, ALICE, WHO SHALL STAND
+TRIAL FOR THE CRIME OF SPEAKING ENTIRELY TOO LONG WITH HER ROYAL MAJESTY, THE QUEEN OF HEARTS. THIS IS A MOST EGREGIOUS CRIME
+DOES ANYONE HAVE ANYTHING NICE TO SAY FOR THIS CRIMINAL?"
+
+
+There is a terrible silence, and you swear you could hear a pin drop. Just as it seems hopeless, you see a familiar, albeit
+very tiny figure step forth from the assembled crowd. It takes you a moment to recognize them, but you soon realize that
+this is the DUCHESS coming to your aid. "Why yes," says the DUCHESS, "I can attest that this is a very nice young lady. She
+came to my cabin recently and we had a very nice chat. As a matter of fact, I gave her a letter of recommendation." The QUEEN
+looks very startled to hear this and asks: "Is this true, child? Check her pockets!"
+
+
+The guards come up to you and rifle through your pockets, quickly finding the LETTER OF RECOMMENDATION from the DUCHESS.
+Upon seeing it, the QUEEN looks very flustered. "Well then, I suppose you must be proper enough then, for the DUCHESS to
+recommend you personally. Very well then, this court finds the defendant NOT GUILTY! As recompense for this false accusation,
+please accept this small token." The QUEEN gestures and a servant runs forward with a beautiful pillow upon which rests a
+HEART KEY.
+
+"Now begone!" screams the QUEEN, and you are quickly brought back to the garden proper along with the rest of the royal retinue.
+>> west
+
+There is nowhere to go that way
+>> south
+
+You are lost in the dark forest, there is no obvious way out. You stand before a gnarled tree, with paths leading off in
+ALL DIRECTIONS. Peering inside a hole in the tree you see the hole continues DOWN farther than you can see. What are you
+going to do?
+
+The CHESHIRE CAT sits above you in the tree, grinning at you. He looks like he has quite a bit to say...
+>> west
+
+You are in the large vaulted room at the bottom of the rabbit hole. There is a HUGE door to the NORTH and a GODLEN door to
+the EAST
+>> drop club key
+
+You drop CLUBKEY
+>> drop diamond key
+
+You drop DIAMONDKEY
+>> drop spade key
+
+You drop SPADEKEY
+>> drop heart key
+
+You drop HEARTKEY
+
+Congratulations! You have escaped WONDERLAND. Thank you for playing.

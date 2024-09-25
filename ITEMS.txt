@@ -1,0 +1,72 @@
+drinkme {
+  A small vial of pleasantly red liquid. Looks tasty.;
+  small;
+}
+
+eatme {
+  A small cake, with the words EAT ME iced on it. Looks delicious.;
+  big;
+}
+
+heartkey {
+  A large key, with it's head molded into the shape of heart.;
+  NONE;
+}
+
+spadekey {
+  A large key, with it's head molded into the shape of a spade.;
+  NONE;
+}
+
+diamondkey {
+  A large key, with it's head molded into the shape of a diamond.;
+  NONE;
+}
+
+clubkey {
+  A large key, with it's head molded into the shape of a diamond.;
+  NONE;
+}
+
+goldkey {
+  A small golden key.;
+  unlock;
+}
+
+fan {
+  An elegantly constructed fan. It has the initials WR engraved into the handle.;
+  NONE;
+}
+
+letter {
+  A letter from the DUCHESS herself. It's a glowing recommendation!;
+  NONE;
+}
+
+watch {
+  A watch that tells the month, rather than the hour. It seems to be about two days off...;
+  time;
+}
+
+croquetmallet {
+  A flamingo holding itself in the shape of a croquet mallet. It is doing a bang up job - looks very solid.;
+  NONE;
+}
+
+jewel {
+  A beautiful and shiny jewel.;
+  NONE;
+}
+
+keyholes {
+  Four keyholes are in the floor. They are arrayed all around where you originally fell down the rabbit hole. Each keyhole has a symbol
+  beside it: a HEART, a CLUB, a DIAMOND, and a SPADE. Perhaps if all of the keyholes are filled, the way out of this place will become
+  apparent.;
+  check-keys;
+}
+
+soup {
+  A massive pot of soup. It looks delicious, but unfortunately smells of pepper and little else. Breathing in the steam from the pot makes
+  your nose tingle - threatening to sneeze at any moment.;
+  stir;
+}

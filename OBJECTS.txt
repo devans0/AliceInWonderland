@@ -1,0 +1,122 @@
+NORTH {
+  n;
+}
+
+SOUTH {
+  s;
+}
+
+EAST {
+  e;
+}
+
+WEST {
+  w;
+}
+
+UP {
+  u;
+}
+
+DOWN {
+  d;
+}
+
+drinkme {
+  drink;
+  potion;
+}
+
+eatme {
+  eat;
+  cake;
+}
+
+heartkey {
+  heart;
+}
+
+clubkey {
+  club;
+}
+
+diamondkey {
+  diamond;
+}
+
+spadekey {
+  spade;
+}
+
+goldkey {
+  gold;
+  key;
+}
+
+fan {
+  fan;
+}
+
+letter {
+  paper;
+}
+
+watch {
+  timepiece;
+}
+
+croquetmallet {
+  croquet;
+  mallet;
+}
+
+jewel {
+  gem;
+}
+
+rabbit {
+  white;
+}
+
+hare {
+  march;
+}
+
+madhatter {
+  mad;
+  hatter;
+}
+
+queen {
+  majesty;
+}
+
+cheshire {
+  cat;
+}
+
+duchess {
+  old;
+  woman;
+}
+
+cards {
+  painters;
+}
+
+thief {
+  criminal;
+}
+
+sister {
+  sis;
+}
+
+big-baby {
+  infant;
+  baby;
+}
+
+soup {
+  pot;
+}

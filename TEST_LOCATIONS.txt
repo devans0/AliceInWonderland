@@ -1,0 +1,49 @@
+START {
+  Starting location DESCRIPTION;
+  Starting location RETURN DESCRIPTION;
+  NONE;
+  NONE;
+  NONE;
+  rabbithole NONE NONE NONE NONE NONE;
+  OPEN OPEN OPEN OPEN OPEN OPEN;
+}
+
+rabbithole {
+  Rabbit hole DESCRIPTION. ROOM2 EAST. ROOM3 SOUTH. ITEM1 HERE;
+  Rabbit hole RETURN DESCRIPTION. ROOM3 SOUTH. ITEM1 HERE;
+  rabbit;
+  item1;
+  NONE;
+  room3 room2 START NONE NONE NONE;
+  LOCKED OPEN OPEN OPEN OPEN OPEN;
+}
+
+room2 {
+  Room2 DESCRIPTION. RABBITHOLE WEST;
+  Room2 RETURN DESCRIPTION. RABBITHOLE WEST;
+  NONE;
+  key;
+  NONE;
+  NONE NONE NONE rabbithole NONE;
+  OPEN OPEN OPEN OPEN OPEN OPEN;
+}
+
+room3 {
+  Room3 DESCRIPTION. RABBITHOLE NORTH. ITEM2 HERE.;
+  Room3 RETURN DESCRIPTION. RABBITHOLE NORTH;
+  NONE;
+  item2;
+  NONE;
+  rabbithole NONE NONE NONE NONE NONE;
+  OPEN OPEN OPEN OPEN OPEN OPEN;
+}
+
+darkforest {
+  This is a placeholder, as Events.unlock() needs to create a darkforest location to work.;
+  It is not connected to any other test locations - please ignore;
+  NONE;
+  NONE;
+  NONE;
+  NONE NONE NONE NONE NONE NONE;
+  OPEN OPEN OPEN OPEN OPEN OPEN;
+}

@@ -1,0 +1,7 @@
+rabbit {
+  Test rabbit DESCRIPTION;
+  Test rabbit RETURN DESCRIPTION;
+  "Hello I am TEST RABBIT."/"This is TEST RABBIT dialogue part two.";
+  NONE;
+  NONE;
+}
